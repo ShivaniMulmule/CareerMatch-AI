@@ -1,0 +1,62 @@
+{
+  "dataset_version": "1.0.0",
+  "product_name": "CareerMatch AI",
+  "tagline": "Know Your Job Fit. Before You Apply.",
+  "generation_timestamp": "2026-09-22T18:44:35.923177",
+  "generation_seed": 42,
+  "number_of_records": 6000,
+  "target_definition": {
+    "name": "match_score",
+    "range": [
+      0.0,
+      100.0
+    ],
+    "nature": "Controlled latent multi-dimensional semantic alignment score",
+    "weights": {
+      "capability_alignment": 0.25,
+      "role_alignment": 0.2,
+      "experience_alignment": 0.18,
+      "project_alignment": 0.15,
+      "responsibility_alignment": 0.12,
+      "education_alignment": 0.1
+    },
+    "zero_keyword_overlap_guarantee": true
+  },
+  "statistics": {
+    "status": "PASSED",
+    "total_records": 6000,
+    "score_mean": 71.58,
+    "score_std": 17.74,
+    "score_min": 18.04,
+    "score_max": 99.0,
+    "distribution": {
+      "low_pct (<50)": 15.25,
+      "mid_pct (50-75)": 37.73,
+      "high_pct (>75)": 47.02
+    },
+    "duplicate_pairs": 0,
+    "unique_target_roles": 13
+  },
+  "archetypes": {
+    "STRONG_MATCH": 1689,
+    "TRANSFERABLE_MATCH": 1446,
+    "PARTIAL_MATCH": 1234,
+    "WEAK_MATCH": 921,
+    "EXPERIENCE_MISMATCH": 710
+  },
+  "roles_distribution": {
+    "Frontend Developer": 505,
+    "Backend Developer": 484,
+    "Cloud Engineer": 483,
+    "Business Analyst": 483,
+    "AI Engineer": 479,
+    "Data Analyst": 476,
+    "Data Scientist": 469,
+    "Machine Learning Engineer": 459,
+    "NLP Engineer": 446,
+    "Computer Vision Engineer": 438,
+    "Software Engineer": 435,
+    "DevOps Engineer": 430,
+    "Data Engineer": 413
+  }
+}

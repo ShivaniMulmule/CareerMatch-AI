@@ -1,0 +1,32 @@
+{
+  "product_name": "CareerMatch AI",
+  "model_version": "1.0.0-xgboost-production",
+  "training_timestamp": "2026-10-20T17:25:51.165768",
+  "dataset_version": "1.0.0",
+  "feature_version": "1.0.0-14features",
+  "algorithm": "XGBRegressor",
+  "hyperparameters": {
+    "n_estimators": 250,
+    "max_depth": 5,
+    "learning_rate": 0.08,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0
+  },
+  "metrics": {
+    "mae": 5.128,
+    "rmse": 7.045,
+    "r2_score": 0.8458,
+    "cv_r2_mean": 0.8382,
+    "cv_r2_std": 0.0087,
+    "test_sample_count": 1200,
+    "baseline_comparison": {
+      "model_type": "Semantic Similarity Baseline (Single Dimension)",
+      "baseline_mae": 11.881,
+      "baseline_rmse": 14.977,
+      "baseline_r2": 0.3033,
+      "xgboost_r2_gain": 0.5425
+    }
+  }
+}

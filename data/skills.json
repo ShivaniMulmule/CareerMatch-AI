@@ -1,0 +1,212 @@
+[
+  {
+    "canonical_name": "Machine Learning",
+    "category": "Artificial Intelligence",
+    "description": "Methods, mathematical theory, and algorithms for learning predictive patterns from historical data.",
+    "aliases": ["ML", "Predictive Modeling", "Statistical Learning", "Supervised Learning", "Unsupervised Learning"],
+    "semantic_description": "Building, training, and validating predictive algorithms, regression models, classification systems, and pattern recognition pipelines using statistical techniques."
+  },
+  {
+    "canonical_name": "Deep Learning",
+    "category": "Artificial Intelligence",
+    "description": "Multi-layered neural network architectures for modeling non-linear, high-dimensional representations.",
+    "aliases": ["Neural Networks", "DNN", "ANN", "Deep Neural Nets"],
+    "semantic_description": "Designing, tuning, and training deep neural network architectures including backpropagation, convolutional layers, and recurrent architectures."
+  },
+  {
+    "canonical_name": "Natural Language Processing",
+    "category": "Artificial Intelligence",
+    "description": "Computational linguistics and machine learning algorithms for textual analysis and semantic comprehension.",
+    "aliases": ["NLP", "Text Mining", "Language Modeling", "Text Analytics"],
+    "semantic_description": "Tokenization, sentiment analysis, named entity recognition, semantic similarity, language modeling, and text classification using computational linguistics."
+  },
+  {
+    "canonical_name": "Large Language Models & Transformers",
+    "category": "Artificial Intelligence",
+    "description": "Self-attention transformer architectures, prompt engineering, fine-tuning, and generative AI systems.",
+    "aliases": ["LLMs", "Generative AI", "Transformers", "BERT", "GPT", "RAG", "LangChain"],
+    "semantic_description": "Working with transformer architectures, pre-trained language models, retrieval augmented generation, fine-tuning, and semantic vector embeddings."
+  },
+  {
+    "canonical_name": "Computer Vision",
+    "category": "Artificial Intelligence",
+    "description": "Algorithms for visual perception, object detection, segmentation, and image processing.",
+    "aliases": ["CV", "Image Processing", "Object Detection", "Image Segmentation", "OpenCV"],
+    "semantic_description": "Extracting meaningful visual features, image classification, bounding box detection, semantic segmentation, and convolutional neural networks."
+  },
+  {
+    "canonical_name": "MLOps & Model Deployment",
+    "category": "Artificial Intelligence",
+    "description": "Practices and tooling for serving, monitoring, containerizing, and orchestrating machine learning models in production.",
+    "aliases": ["MLOps", "Model Serving", "Model Monitoring", "MLflow", "Kubeflow", "Triton"],
+    "semantic_description": "Deploying machine learning models as production endpoints, tracking model experiments, monitoring data drift, latency, and pipeline automation."
+  },
+  {
+    "canonical_name": "Python Programming",
+    "category": "Programming Languages",
+    "description": "High-level object-oriented and functional programming with Python for data science, backend, and automation.",
+    "aliases": ["Python", "Python 3", "Pythonic Code"],
+    "semantic_description": "Writing clean, maintainable, modular Python code, object-oriented design, async programming, data structures, and script automation."
+  },
+  {
+    "canonical_name": "PyTorch",
+    "category": "Frameworks & Libraries",
+    "description": "Dynamic computation tensor library for deep learning and neural network research and deployment.",
+    "aliases": ["Torch", "PyTorch Lightning"],
+    "semantic_description": "Implementing neural network layers, custom autograd functions, GPU-accelerated tensor operations, loss functions, and model training loops."
+  },
+  {
+    "canonical_name": "TensorFlow & Keras",
+    "category": "Frameworks & Libraries",
+    "description": "End-to-end open-source machine learning platform and high-level neural networks API.",
+    "aliases": ["TensorFlow", "Keras", "TF"],
+    "semantic_description": "Building computational graphs, compiling sequential and functional Keras models, distributed training, and model export formats."
+  },
+  {
+    "canonical_name": "Scikit-Learn",
+    "category": "Frameworks & Libraries",
+    "description": "Python library for classical machine learning algorithms, preprocessing, feature extraction, and model evaluation.",
+    "aliases": ["sklearn", "scikit-learn"],
+    "semantic_description": "Pipeline construction, cross-validation, hyperparameter grid search, ensemble methods, clustering, and regression modeling."
+  },
+  {
+    "canonical_name": "XGBoost & Gradient Boosting",
+    "category": "Frameworks & Libraries",
+    "description": "Scalable, distributed gradient-boosted decision tree library for tabular data prediction.",
+    "aliases": ["XGBoost", "LightGBM", "CatBoost", "GBDT"],
+    "semantic_description": "Training tree-based gradient boosted models on structured tabular datasets, tuning learning rates, tree depth, regularization, and feature importance."
+  },
+  {
+    "canonical_name": "Explainable AI & SHAP",
+    "category": "Artificial Intelligence",
+    "description": "Game-theoretic and attribution approaches for interpreting complex black-box machine learning models.",
+    "aliases": ["XAI", "SHAP", "LIME", "Feature Attribution", "Interpretability"],
+    "semantic_description": "Computing Shapley additive explanations, inspecting local and global feature contributions, waterfall plots, and model transparency metrics."
+  },
+  {
+    "canonical_name": "Data Analysis & Pandas",
+    "category": "Data Engineering",
+    "description": "Data wrangling, exploratory data analysis, aggregation, filtering, and statistical analysis with Pandas and NumPy.",
+    "aliases": ["Pandas", "NumPy", "EDA", "Data Wrangling", "Data Manipulation"],
+    "semantic_description": "Cleaning tabular data, grouping and pivoting DataFrames, handling missing values, statistical summarization, and vector operations."
+  },
+  {
+    "canonical_name": "SQL & Relational Databases",
+    "category": "Data Engineering",
+    "description": "Structured Query Language for querying, schema design, indexing, and managing relational databases.",
+    "aliases": ["SQL", "PostgreSQL", "MySQL", "RDBMS", "Relational Database"],
+    "semantic_description": "Writing complex multi-table joins, subqueries, aggregations, window functions, query performance indexing, and relational schema modeling."
+  },
+  {
+    "canonical_name": "Data Pipelines & ETL",
+    "category": "Data Engineering",
+    "description": "Extract, Transform, Load workflows for orchestrating data pipelines and large-scale data ingestion.",
+    "aliases": ["ETL", "ELT", "Data Ingestion", "Data Pipelines", "Airflow"],
+    "semantic_description": "Constructing robust scheduled data pipelines, data transformation flows, workflow orchestration with DAGs, and validation."
+  },
+  {
+    "canonical_name": "Distributed Computing & Big Data",
+    "category": "Data Engineering",
+    "description": "Distributed data processing and streaming frameworks for large-scale datasets.",
+    "aliases": ["Apache Spark", "PySpark", "Hadoop", "Kafka", "Databricks"],
+    "semantic_description": "Processing big data using distributed resilient datasets, Spark SQL, stream processing, partitioning strategies, and cluster execution."
+  },
+  {
+    "canonical_name": "FastAPI & REST APIs",
+    "category": "Backend Engineering",
+    "description": "Modern, high-performance web framework for building asynchronous RESTful APIs in Python.",
+    "aliases": ["FastAPI", "REST API", "Web Services", "API Development"],
+    "semantic_description": "Designing OpenAPI compliant endpoints, asynchronous request handling, Pydantic validation models, dependency injection, and routing."
+  },
+  {
+    "canonical_name": "Backend Development",
+    "category": "Backend Engineering",
+    "description": "Server-side business logic, database transaction handling, authentication, and architectural orchestration.",
+    "aliases": ["Backend", "Server-side", "Node.js", "Django", "Flask", "Go", "Java Spring"],
+    "semantic_description": "Architecting resilient server-side microservices, request-response lifecycles, database interaction, caching, and background workers."
+  },
+  {
+    "canonical_name": "NoSQL & MongoDB",
+    "category": "Data Engineering",
+    "description": "Document-oriented and key-value datastores for semi-structured data schemas.",
+    "aliases": ["MongoDB", "NoSQL", "Document Database", "Redis"],
+    "semantic_description": "Designing document collections, BSON schemas, aggregation pipelines, caching layers, and managing unstructured data storage."
+  },
+  {
+    "canonical_name": "Frontend Web Development",
+    "category": "Frontend Engineering",
+    "description": "User interface design, client-side rendering, component-driven development, and responsive web layouts.",
+    "aliases": ["Frontend", "UI Development", "Web Development", "Client-side"],
+    "semantic_description": "Building interactive browser interfaces, managing client-side application state, responsive typography, CSS layouts, and DOM manipulation."
+  },
+  {
+    "canonical_name": "React & TypeScript",
+    "category": "Frontend Engineering",
+    "description": "Modern reactive single-page application framework combined with static type safety.",
+    "aliases": ["React", "React.js", "TypeScript", "TS", "Next.js"],
+    "semantic_description": "Developing reusable typed functional components, hooks, props validation, virtual DOM rendering, and SPA client routing."
+  },
+  {
+    "canonical_name": "Tailwind CSS & Styling",
+    "category": "Frontend Engineering",
+    "description": "Utility-first CSS framework for custom responsive design and design system implementation.",
+    "aliases": ["Tailwind", "Tailwind CSS", "CSS3", "Responsive Design"],
+    "semantic_description": "Creating modern responsive user interfaces with utility classes, theme customization, CSS flexbox, grid, and transitions."
+  },
+  {
+    "canonical_name": "Cloud Computing & AWS",
+    "category": "Cloud & Infrastructure",
+    "description": "Cloud infrastructure, scalable computing instances, object storage, and managed platform services.",
+    "aliases": ["AWS", "Amazon Web Services", "Cloud", "S3", "EC2", "Cloud Infrastructure"],
+    "semantic_description": "Provisioning virtual cloud servers, configuring object storage buckets, identity access policies, cloud networking, and serverless compute."
+  },
+  {
+    "canonical_name": "Docker & Containerization",
+    "category": "DevOps & Infrastructure",
+    "description": "Packaging software applications, dependencies, and environments into isolated lightweight containers.",
+    "aliases": ["Docker", "Containers", "Dockerfile", "Docker Compose"],
+    "semantic_description": "Writing multi-stage Dockerfiles, building reproducible runtime images, container orchestration, volume mounts, and network bridges."
+  },
+  {
+    "canonical_name": "Kubernetes & Container Orchestration",
+    "category": "DevOps & Infrastructure",
+    "description": "Automated deployment, scaling, self-healing, and management of containerized workloads.",
+    "aliases": ["K8s", "Kubernetes", "Container Orchestration"],
+    "semantic_description": "Managing cluster deployments, replica sets, ingress controllers, pod scaling, persistent volume claims, and rolling updates."
+  },
+  {
+    "canonical_name": "CI/CD & DevOps Automation",
+    "category": "DevOps & Infrastructure",
+    "description": "Continuous integration, automated testing, continuous deployment pipelines, and release engineering.",
+    "aliases": ["CI/CD", "GitHub Actions", "GitLab CI", "DevOps", "Automation Pipelines"],
+    "semantic_description": "Authoring automated workflow pipelines, automated linting, test execution on pull requests, semantic versioning, and zero-downtime deployment."
+  },
+  {
+    "canonical_name": "Git & Version Control",
+    "category": "Software Engineering",
+    "description": "Distributed revision control for collaborative codebases, branch management, and code reviews.",
+    "aliases": ["Git", "GitHub", "Version Control", "Git Flow"],
+    "semantic_description": "Managing feature branching strategies, conflict resolution, atomic commits, pull requests, and distributed code versioning."
+  },
+  {
+    "canonical_name": "Software Testing & QA",
+    "category": "Software Engineering",
+    "description": "Automated unit testing, integration verification, end-to-end testing, and test-driven development.",
+    "aliases": ["Unit Testing", "Pytest", "Jest", "TDD", "Integration Testing"],
+    "semantic_description": "Writing test assertions, fixtures, mocking external service dependencies, calculating code coverage, and regression prevention."
+  },
+  {
+    "canonical_name": "System Design & Architecture",
+    "category": "Software Engineering",
+    "description": "Designing scalable, fault-tolerant, modular, and performant software system architectures.",
+    "aliases": ["System Design", "Software Architecture", "High-Level Design", "Distributed Systems"],
+    "semantic_description": "Formulating load balancing architectures, database sharding, caching tiers, asynchronous message queues, and modular service boundaries."
+  },
+  {
+    "canonical_name": "Agile & Team Collaboration",
+    "category": "Methodology",
+    "description": "Iterative product development methodology, sprint planning, peer review, and cross-functional coordination.",
+    "aliases": ["Agile", "Scrum", "Sprint Planning", "Cross-functional Collaboration"],
+    "semantic_description": "Participating in sprint cycles, backlog refinement, collaborating with product managers, code reviews, and stakeholder communication."
+  }
+]

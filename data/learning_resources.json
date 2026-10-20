@@ -1,0 +1,172 @@
+{
+  "resources": [
+    {
+      "skill": "Machine Learning",
+      "courses": [
+        {"title": "Machine Learning Specialization by Andrew Ng", "provider": "Coursera / DeepLearning.AI", "level": "Intermediate", "url": "https://www.coursera.org/specializations/machine-learning-introduction"},
+        {"title": "Applied Machine Learning in Python", "provider": "University of Michigan / Coursera", "level": "Intermediate", "url": "https://www.coursera.org/learn/python-machine-learning"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "Predictive Customer Churn Pipeline with Explainability",
+          "description": "Build an end-to-end classification system using Scikit-Learn and XGBoost, featuring stratified cross-validation, hyperparameter tuning, and SHAP-based feature importance explainability."
+        },
+        {
+          "title": "Automated Real Estate Valuation Engine",
+          "description": "Develop a multi-feature regression model predicting house prices with extensive feature engineering (geocoding, interaction terms) and rigorous residual error analysis."
+        }
+      ],
+      "certifications": ["AWS Certified Machine Learning - Specialty", "Google Professional Machine Learning Engineer"],
+      "resume_advice": "Quantify your modeling outcomes: state the baseline metric, final metric (e.g. +14% F1-score, -22% RMSE), and the business impact rather than just listing 'used ML'."
+    },
+    {
+      "skill": "Deep Learning",
+      "courses": [
+        {"title": "Deep Learning Specialization", "provider": "DeepLearning.AI", "level": "Advanced", "url": "https://www.coursera.org/specializations/deep-learning"},
+        {"title": "Practical Deep Learning for Coders", "provider": "fast.ai", "level": "Intermediate", "url": "https://course.fast.ai"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "Custom PyTorch ResNet Architecture for Medical Imaging",
+          "description": "Construct and fine-tune a convolutional neural network with custom data augmentations, learning rate warmup, and Grad-CAM visual explainability."
+        }
+      ],
+      "certifications": ["DeepLearning.AI TensorFlow Developer", "NVIDIA Deep Learning Institute Certificate"],
+      "resume_advice": "Explicitly highlight neural network architectures, custom loss functions, training epochs, and GPU optimization techniques you implemented."
+    },
+    {
+      "skill": "Natural Language Processing",
+      "courses": [
+        {"title": "Natural Language Processing Specialization", "provider": "DeepLearning.AI", "level": "Intermediate-Advanced", "url": "https://www.coursera.org/specializations/natural-language-processing"},
+        {"title": "Hugging Face NLP Course", "provider": "Hugging Face", "level": "Intermediate", "url": "https://huggingface.co/learn/nlp-course"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "Semantic Document Search Engine using S-BERT and FAISS",
+          "description": "Build a dense vector retrieval pipeline utilizing sentence-transformers/all-MiniLM-L6-v2 and FAISS indexing for sub-10ms semantic document similarity search."
+        },
+        {
+          "title": "Aspect-Based Sentiment Analyzer with Transformers",
+          "description": "Fine-tune a DistilBERT or RoBERTa classifier to identify product feature mentions and categorize associated customer sentiments."
+        }
+      ],
+      "certifications": ["Stanford Online Natural Language Processing with Deep Learning"],
+      "resume_advice": "Distinguish between legacy rule-based/token-counting techniques and modern dense vector / transformer embedding methodologies."
+    },
+    {
+      "skill": "Large Language Models & Transformers",
+      "courses": [
+        {"title": "Generative AI with Large Language Models", "provider": "AWS & DeepLearning.AI", "level": "Advanced", "url": "https://www.coursera.org/learn/generative-ai-with-llms"},
+        {"title": "LangChain for LLM Application Development", "provider": "DeepLearning.AI", "level": "Intermediate", "url": "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "Enterprise RAG System with Vector Hybrid Search & Guardrails",
+          "description": "Architect a production-grade Retrieval-Augmented Generation agent with chunking optimizations, reranking, source citation attribution, and hallucination evaluation."
+        }
+      ],
+      "certifications": ["AWS Certified Generative AI Practitioner"],
+      "resume_advice": "Demonstrate understanding of context windows, prompt evaluation benchmarks, vector retrieval latency, and fine-tuning techniques (LoRA/QLoRA)."
+    },
+    {
+      "skill": "MLOps & Model Deployment",
+      "courses": [
+        {"title": "Machine Learning Engineering for Production (MLOps)", "provider": "DeepLearning.AI", "level": "Advanced", "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops"},
+        {"title": "Full Stack Deep Learning", "provider": "FSDL", "level": "Advanced", "url": "https://fullstackdeeplearning.com"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "Containerized FastAPI ML Microservice on AWS with CI/CD",
+          "description": "Containerize a trained XGBoost / PyTorch model with Docker, deploy to AWS EC2 or ECS, configure GitHub Actions automated testing, and log endpoint latency."
+        },
+        {
+          "title": "MLflow Experiment Tracking and Model Registry Pipeline",
+          "description": "Integrate MLflow tracking into model training scripts, log metrics/artifacts, and configure automated model promotion to staging and production."
+        }
+      ],
+      "certifications": ["Databricks Certified Machine Learning Professional", "AWS Certified DevOps Engineer"],
+      "resume_advice": "Emphasize production readiness: Docker containerization, REST API throughput (RPS), p99 latency guarantees, and drift monitoring."
+    },
+    {
+      "skill": "FastAPI & REST APIs",
+      "courses": [
+        {"title": "Building APIs with FastAPI", "provider": "freeCodeCamp / YouTube", "level": "Beginner-Intermediate", "url": "https://www.freecodecamp.org"},
+        {"title": "Test-Driven Development with FastAPI and Docker", "provider": "TestDriven.io", "level": "Intermediate", "url": "https://testdriven.io/courses/tdd-fastapi-docker/"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "Asynchronous High-Throughput Microservice with JWT & Pydantic",
+          "description": "Build an async RESTful service using FastAPI, Pydantic v2 validation models, JWT bearer token authentication, rate limiting, and automated Swagger documentation."
+        }
+      ],
+      "certifications": ["FastAPI Expert Developer Certification"],
+      "resume_advice": "Highlight async endpoint architecture, OpenAPI documentation generation, schema validation, and unit test coverage with pytest and HTTPX."
+    },
+    {
+      "skill": "Cloud Computing & AWS",
+      "courses": [
+        {"title": "AWS Cloud Practitioner Essentials", "provider": "AWS Training", "level": "Beginner", "url": "https://aws.amazon.com/training/"},
+        {"title": "AWS Certified Solutions Architect - Associate", "provider": "A Cloud Guru / Udemy", "level": "Intermediate", "url": "https://www.udemy.com"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "Scalable Cloud Architecture with S3, EC2, and CloudWatch",
+          "description": "Deploy a multi-tier web application using AWS S3 for secure object storage, EC2 compute with security groups, and CloudWatch monitoring alerts."
+        }
+      ],
+      "certifications": ["AWS Certified Solutions Architect - Associate", "AWS Certified Cloud Practitioner"],
+      "resume_advice": "Mention specific cloud services (S3, EC2, IAM, CloudWatch) and the security practices followed (least privilege IAM roles, secure presigned URLs)."
+    },
+    {
+      "skill": "SQL & Relational Databases",
+      "courses": [
+        {"title": "The Complete SQL Bootcamp", "provider": "Udemy", "level": "Beginner-Intermediate", "url": "https://www.udemy.com"},
+        {"title": "Databases: Advanced Topics in SQL", "provider": "Stanford Online / edX", "level": "Advanced", "url": "https://www.edx.org"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "E-Commerce Relational Database Design and Query Optimization",
+          "description": "Design a 3NF normalized PostgreSQL schema with indexes, multi-table analytical window functions, CTEs, and query execution plan (EXPLAIN ANALYZE) optimization."
+        }
+      ],
+      "certifications": ["Oracle Database SQL Certified Associate", "PostgreSQL Certified Professional"],
+      "resume_advice": "Highlight complex analytical queries (window functions, CTEs) and query execution optimization rather than basic SELECT statements."
+    },
+    {
+      "skill": "React & TypeScript",
+      "courses": [
+        {"title": "React - The Complete Guide", "provider": "Academind / Udemy", "level": "Intermediate", "url": "https://www.udemy.com"},
+        {"title": "Understanding TypeScript", "provider": "Udemy", "level": "Intermediate", "url": "https://www.udemy.com"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "Modern Interactive SaaS Dashboard with Vite, Tailwind, & Recharts",
+          "description": "Construct a responsive single-page web app with client-side routing, strongly-typed API contracts, interactive data charts, and accessible modal dialogs."
+        }
+      ],
+      "certifications": ["Meta Front-End Developer Professional Certificate"],
+      "resume_advice": "Highlight strict TypeScript configuration, reusable component architecture, state management patterns, and responsive web accessibility."
+    },
+    {
+      "skill": "Docker & Containerization",
+      "courses": [
+        {"title": "Docker for Developers", "provider": "Coursera", "level": "Beginner-Intermediate", "url": "https://www.coursera.org"},
+        {"title": "Docker & Kubernetes: The Practical Guide", "provider": "Udemy", "level": "Intermediate", "url": "https://www.udemy.com"}
+      ],
+      "recommended_projects": [
+        {
+          "title": "Multi-Stage Containerized Full-Stack Stack with Docker Compose",
+          "description": "Create optimized multi-stage Docker builds for both a React frontend and a FastAPI backend with persistent volume mounts and container networking."
+        }
+      ],
+      "certifications": ["Docker Certified Associate (DCA)"],
+      "resume_advice": "Showcase multi-stage builds that reduce image size (e.g. from 1.2GB to 140MB) and reproducible development environments."
+    }
+  ],
+  "general_advice": [
+    "Use the Google XYZ formula: 'Accomplished [X] as measured by [Y], by doing [Z]'.",
+    "Focus on capabilities and technical depth rather than stuffing raw keywords.",
+    "Include direct links to live GitHub repositories, interactive demos, or published documentation for every project.",
+    "Explicitly state the data size, throughput, latency, or accuracy metrics achieved in your engineering projects."
+  ]
+}
